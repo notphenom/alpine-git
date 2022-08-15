@@ -1,4 +1,4 @@
 FROM alpine:latest
 
 LABEL maintainer="phenom@frakturestudios.com"
-RUN APK add openssh-client
+RUN apk add openssh-client
